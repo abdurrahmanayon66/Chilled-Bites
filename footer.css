@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+
+.footer{
+    text-align:center;
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+.brand-title{
+    font-size:60px;
+    font-weight:700;
+    font-family:'Poppins', sans-serif;
+    text-transform:uppercase;
+    color: #f195b2;
+}
+
+.first-letter{
+    color:#62C3E7;
+}
+
+.icons{
+    list-style-type:none;
+    text-align: center;
+}
+
+.icons li{
+    display: inline;
+    margin:0 10px 0 10px;
+}
+
+.btn{
+    height:50px;
+    width:50px;
+    transition-property:background,transform;
+    transition-duration:0.4s,0.2s;
+    transition-timing-function: ease-in;
+    border:3px solid #f195b2;
+    border-radius:100px;
+    background-color:white;
+}
+
+.fa-brands,.fa-facebook{
+    color:#f195b2;
+    font-size:2rem;
+}
+
+.btn:hover{
+  transform:scale(1.2);
+  cursor: pointer;
+}
+
+.left, .right{
+    display:inline-block;
+    width:40%;
+    font-size:25px;
+    text-transform: uppercase;
+}
+
+.left{
+    text-align:right;
+    padding:0 15px 0 0;
+    border-right:0.5px solid #808080;
+    position: relative;
+    left:4px;
+}
+
+.right{
+    text-align:left;
+    padding:0 0 0 15px;
+}
+
+.footer-section-container{
+    margin:20px 0;
+    color:#808080;
+}
+
+.left-section1,.right-section1{
+    font-weight:700;
+}
+
+.designed-by,.signature{
+    color:#f195b2;
+}
+
+.designed-by{
+    padding:20px 0 0 0;
+    font-weight:300;
+    font-size:30px;
+}
+
+.signature{
+    font-family: 'Caveat', cursive;
+    font-size:40px;
+    font-weight:700;
+}
